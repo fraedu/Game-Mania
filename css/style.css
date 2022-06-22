@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Titillium+Web:wght@400;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    opacity: 90%;
+    height: 90px;
+}
+
+.imagemLogo {
+    max-width: 150px;
+    max-height: 70px;
+}
+
+#menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a:hover {
+    background-color: rgb(14, 8, 100);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner {
+    background-image: url(../img/bannerult1.svg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicionamento_banner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.conteudo_banner, h1, p {
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo_banner h1 {
+    font-size: 40px;
+}
+
+.conteudo_banner p {
+    font-size: 20px;
+}
+
+.conteudo_banner a {
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    
+} 
+
+.conteudo_banner a:hover {
+    background-color: rgb(14, 8, 100);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.secao_navegacao {
+    height: 210px;
+    background-color: rgb(107, 107, 107);
+}
+
+.posicionamento_navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.item_navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    justify-content: space-between;
+}
+
+.item_navegacao a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
