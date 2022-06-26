@@ -24,6 +24,10 @@ header {
     
 } 
 
+.icone-bars {
+    display: none;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -96,7 +100,7 @@ a {
 }
 
 .secao_navegacao {
-    height: 210px;
+    height: 170px;
     background-color: rgb(107, 107, 107);
 }
 
@@ -107,15 +111,162 @@ a {
     height: 100%;
 }
 
+.posicionamento_navegacao img {
+    height: 70px;
+    width: 70px;
+}
+
 .item_navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 180px;
+    height: 100px;
     justify-content: space-between;
 }
 
 .item_navegacao a {
     color: rgb(0, 0, 0);
     font-weight: bold;
+}
+
+.lancamentos {
+    height: 560px;
+    background-color: rgb(107, 107, 107);
+}
+
+.cabecalho_jogos {
+    height: 80px;
+    background-color: black;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho_jogos h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card_jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 240px;
+    height: 430px;
+}
+
+.imagem_card {
+    background-image: url(../img/capajogosdead.svg);
+    width: 260px;
+    height: 400px;
+    box-shadow: 1px 1px 20px 4px #000000;
+    border-radius: 8px;
+}
+
+.nome_jogo {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px; 
+}
+
+.nome_jogo a:hover {
+    padding: 8px;
+}
+
+.top_mais_jogados {
+    height: 560px;
+    background-color: rgb(107, 107, 107);
+}
+
+.acessorios {
+    height: 300px;
+    background-color: rgb(107, 107, 107);
+}
+
+.position_acessorios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+}
+
+footer {
+    height: 358px;
+    background-color: #000000;
+    color: white;
+}
+
+.links li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px){
+    .imagem_card {
+        height: 300px;
+        width: 200px;
+    }
+    .lancamentos {
+        height: 500px;
+    }
+    .top_mais_jogados {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .imagem_card {
+        background-image: url(../img/capajogosp.svg);
+        height: 240px;
+        width: 150px;
+    }
+    .lancamentos {
+        height: 450px;
+    }
+    .top_mais_jogados {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .icone-bars {
+        display: inline-block;
+    }
+    #menu {
+        display: none;
+    }
+    .menu {
+
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        height: 400px;
+        width: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1E1C21;
+        align-items: center;
+        opacity: 99%;
+        border-radius: 5px;}
+    .cabecalho {
+        position: relative;
+    }
 }
