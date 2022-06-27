@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Titillium+Web:wght@400;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    opacity: 90%;
+    height: 90px;
+}
+
+.imagemLogo {
+    max-width: 150px;
+    max-height: 70px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a:hover {
+    background-color: rgb(14, 8, 100);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.icone-bars {
+    display: none;
+}
+
+#menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+.login {
+    background-color: rgb(107, 107, 107);
+    height: 500px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.form-login {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(9, 9, 10);
+    border-radius: 10px;
+}
+
+.form-login h1 {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.form-login p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+footer {
+    height: 358px;
+    background-color: #000000;
+    color: white;
+}
+
+.links li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
